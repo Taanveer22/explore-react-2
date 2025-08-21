@@ -1,17 +1,16 @@
-import Cart from './components/Cart'
-import './App.css'
+import ArrayMap from "./components/ArrayMap";
+import HookOne from "./components/HookOne";
+import HookTwo from "./components/HookTwo";
 
 function App() {
- 
-
   return (
-    <>
-      
-      <h1>vite + React 2</h1>
-      <Cart></Cart>
-     
-    </>
-  )
+    <div className="w-1/2 mx-auto">
+      <h1 className="text-5xl font-bold">Explore React 2</h1>
+      <ArrayMap></ArrayMap>
+      <HookOne></HookOne>
+      <HookTwo></HookTwo>
+    </div>
+  );
 }
 
-export default App
+export default App;
